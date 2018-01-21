@@ -46,8 +46,5 @@ export class UpdateEmployeeComponent implements OnInit {
         }
       }
     );
-
-
   }
-
 }

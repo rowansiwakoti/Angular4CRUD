@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   private headers = new Headers({'Content-Type': 'application/json'});
 
   employees = [];
-  fetchData = function () {
+  getEmployees = function () {
     this.http.get('http://localhost:8888/employees').subscribe(
       (res: Response) => {
         this.employees = res.json();
@@ -26,18 +26,14 @@ export class HomeComponent implements OnInit {
     if (confirm('Are you sure, you want to delete?')) {
       return this.http.delete('http://localhost:8888/employees/' + id, {headers: this.headers}).toPromise().then(
         () => {
-          this.fetchData();
+          this.getEmployees();
         }
       );
     }
   };
 
-  editEmployee = function (employee) {
-
-  };
-
   ngOnInit() {
-    this.fetchData();
+    this.getEmployees();
   }
 
 }
