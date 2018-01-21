@@ -1,0 +1,40 @@
+{
+  "employees": [
+    {
+      "firstName": "Rowan",
+      "middleName": "",
+      "lastName": "Siwakoti",
+      "emailId": "rowansiwakoti@gmail.com",
+      "contactNo": "9860232805",
+      "address": "Kathmandu",
+      "id": 1
+    },
+    {
+      "firstName": "Hari",
+      "middleName": "",
+      "lastName": "Upreti",
+      "emailId": "hariupreti@gmail.com",
+      "contactNo": "9817926015",
+      "address": "Shantinagar",
+      "id": 2
+    },
+    {
+      "firstName": "shubha",
+      "middleName": "raj",
+      "lastName": "pant",
+      "emailId": "shubha@gmail.com",
+      "contactNo": "9898989898",
+      "address": "putalisadak",
+      "id": 3
+    },
+    {
+      "firstName": "Sumin",
+      "middleName": "",
+      "lastName": "Shakya",
+      "emailId": "sumin@gmail.com",
+      "contactNo": "9836251478",
+      "address": "Bhaktapur",
+      "id": 4
+    }
+  ]
+}

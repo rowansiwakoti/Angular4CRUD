@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin-top: 10px;
+}
+.table-header{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h2{
+  text-align: center;
+}
+
+h3{
+  display: inline;
+  text-decoration: underline;
+  margin-left:38%;
+}
+form{
+  margin-top: 10px;
+}
